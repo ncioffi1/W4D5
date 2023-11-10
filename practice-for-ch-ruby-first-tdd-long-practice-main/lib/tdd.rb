@@ -36,9 +36,9 @@ def stock_picker(prices)
   highest_value = 0
   (0...prices.length).each do |i|
     (i + 1...prices.length).each do |j|
-      range = prices[j] - prices[i] 
+      range = prices[j] - prices[i]
       if range > highest_value
-        highest_value = range 
+        highest_value = range
         highest_range = [i, j]
       end
     end
@@ -46,9 +46,4 @@ def stock_picker(prices)
   return highest_range
 end
 
-# mat = [
-#   [0, 1, 2],
-#   [3, 4, 5],
-#   [6, 7, 8]
-# ]
-# p my_transpose(mat)
+
