@@ -89,9 +89,9 @@ my_transpose([
   [3, 4, 5],
   [6, 7, 8]
 ])
- # => [[0, 3, 6],
- #     [1, 4, 7],
- #     [2, 5, 8]]
+#  => [[0, 3, 6],
+#      [1, 4, 7],
+#      [2, 5, 8]]
 ```
 
 ## Stock Picker
@@ -99,6 +99,9 @@ my_transpose([
 Write a method that takes an array of stock prices (prices on days 0, 1, ...),
 and outputs the most profitable pair of days on which to first buy the stock and
 then sell the stock.  Remember, you can't sell stock before you buy it!
+
+<!-- prices = [ 1, 5, 2, 10, 3, 11, 19, 9] # expect [0, 6]
+prices = [ 19, 5, 2, 10] # expect [2, 3] -->
 
 ## Towers of Hanoi
 
